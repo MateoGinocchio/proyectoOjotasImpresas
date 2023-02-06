@@ -159,6 +159,7 @@ div.cardProducto a:hover {
 
 .recomend p {
     color: #eab21b;
+    text-align: center;
 }
 
 .containerRecom {
@@ -275,6 +276,7 @@ div.contactanos div img {
     margin: 0px;
     padding: 0px;
     font-size: 15px;
+    text-align: center;
 }
 
 .letraFooter {
@@ -345,7 +347,6 @@ div.contactanos div img {
 .hache1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #e5d3b5;
-    margin-left: 30px;
     font-weight: 800;
 }
 
@@ -493,4 +494,173 @@ div.contactanos div img {
 
 .tittleContacto {
     background-color: #e5d3b5;
+}
+
+/* QUERYS */
+/* MENU */
+@media only screen and (min-width:370px) and (max-width:960px) {
+    header {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:961px) {
+    .menuMobile {
+        display: none;
+    }
+    .carrouselMobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    /* FOTOS INICIO */
+    .carrousel {
+        display: none;
+    }
+
+    .carrouselMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .foto1 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .foto2 {
+        margin-bottom: 10px;
+    }
+    /*CARRUSEL  */
+    .carrusel {
+        margin: 5px;
+        margin-top: 30px;
+    }
+
+    .contenedorNuevoProducto {
+        display: none;
+    }
+
+    .tittleNewProduct  {
+        display: none;
+    }
+
+    /* PROCEDIMIENTOS */
+    .tittleProductos1 {
+        font-size: 35px !important;
+    }
+
+    .contenedorPaso {
+        width: 90%;
+    }
+
+    /* RECOMENDACIONES */
+    .imgIzq {
+        width: 95%;
+    }
+
+    /* footer */
+    .footer {
+        display: none;
+    }
+}
+
+/* SOBRE NOSOTROS */
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    h2.tittleProductos {
+        font-size: 40px;
+    }
+    .banner img {
+        width: 90%;
+    }
+
+    .containerOjotasImpresas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .containerOjotasImpresas img {
+        width: 90%;
+    }
+    .containerOjotasImpresasMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        
+    }
+    .containerOjotasImpresasMobile img {
+        width: 90%;
+    }
+
+    .ojotasImpresas {
+        width: 90%;
+        border-start-end-radius: 5px;
+        border-end-start-radius: 5px;
+        border-start-end-radius: 0px;
+        height: 100%;
+    }
+    section.containerOjotasImpresasMobile div.ojotasImpresas1 {
+        width: 90%;
+        border-start-start-radius: 0px;
+        border-end-end-radius: 5px;
+        border-start-end-radius: 0px;
+        border-end-start-radius: 5px;
+        height: 100%;
+    }
+
+    div section.containerOjotasImpresas {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:961px) {
+    .containerOjotasImpresasMobile {
+        display: none;
+    }
+}
+
+/* CASAMIENTO Y 15 AÑOS */
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    .divMenu {
+        display: none;
+    }
+
+    .imgBorder {
+        margin: 10px;
+        width: 90%;
+    }
+    .containerCasamiento {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    #casamientos {
+        font-size: 50px;
+    }
+}
+
+/* CONTACTO */
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    .contenedorContacto {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .contenedorContacto iframe {
+        width: 100%;
+        height: 400px;
+    }
 }
