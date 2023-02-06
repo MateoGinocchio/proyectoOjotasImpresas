@@ -498,7 +498,7 @@ div.contactanos div img {
 
 /* QUERYS */
 /* MENU */
-@media only screen and (min-width:320px) and (max-width:960px) {
+@media only screen and (min-width:300px) and (max-width:960px) {
     header {
         display: none;
     }
@@ -513,7 +513,7 @@ div.contactanos div img {
     }
 }
 
-@media only screen and (min-width:320px) and (max-width:960px) {
+@media only screen and (min-width:300px) and (max-width:960px) {
     /* FOTOS INICIO */
     .carrousel {
         display: none;
@@ -569,7 +569,7 @@ div.contactanos div img {
 
 /* SOBRE NOSOTROS */
 
-@media only screen and (min-width:320px) and (max-width:960px) {
+@media only screen and (min-width:300px) and (max-width:960px) {
     h2.tittleProductos {
         font-size: 40px;
     }
@@ -628,7 +628,7 @@ div.contactanos div img {
 
 /* CASAMIENTO Y 15 AÑOS */
 
-@media only screen and (min-width:320px) and (max-width:960px) {
+@media only screen and (min-width:300px) and (max-width:960px) {
     .divMenu {
         display: none;
     }
@@ -652,7 +652,7 @@ div.contactanos div img {
 
 /* CONTACTO */
 
-@media only screen and (min-width:320px) and (max-width:960px) {
+@media only screen and (min-width:300px) and (max-width:960px) {
     .contenedorContacto {
         display: flex;
         flex-direction: column;
